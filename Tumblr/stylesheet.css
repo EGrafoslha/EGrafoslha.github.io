@@ -1,0 +1,127 @@
+body {
+	background-color: #36465D;
+}
+
+#logo {
+	position: relative;
+	/*width: 21px;*/
+	height: 32px;
+	top: 10px;
+	left: 160px;
+}
+
+#searchbar {
+	position: relative;
+	border: none; 
+	background:#fff;
+	/*display:block;*/
+	height: 34px; 
+	width: 480px; 
+	box-sizing: border-box;
+	background-image: url(magnifyingglass.png);
+	background-repeat: no-repeat;
+	text-indent: 30px;
+	background-position: left center;
+	border-radius: 5px;
+	margin-left: 180px;
+}
+
+#stuff {
+	position: absolute;
+	top: 15px;
+	right: 150px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: hsla(0,0%,100%,.25);
+	margin: 10px -20px 0px -20px;
+} 
+
+#myprofile {
+	position: absolute;
+	top: 100px;
+	left: 420px;
+}
+
+#symbols {
+	position: absolute;
+	top: 100px;
+	left: 505px;
+}
+
+#confirmance {
+	position: absolute;
+	top: 220px;
+	left: 420px;
+}
+
+#firstpost {
+	position: absolute;
+	top: 220px;
+	left: 505px;
+}
+
+#date {
+	position: absolute;
+	top: 880px;
+	left: 420px;
+}
+
+#anon {
+	position: absolute;
+	top: 880px;
+	left: 505px;
+}
+
+#recommended {
+	position: absolute;
+	width: 330px;
+	height: 260px;
+	top: 90px;
+	right: 470px;
+}
+
+#reco {
+	font-family: Arial;
+	font-size: 12px;
+	color: hsla(0,0%,100%,.25);
+}
+
+.blogs img {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.blogsText {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	color: hsla(0,0%,100%,.6);
+	margin-top: 10px;
+	font-family: Arial;
+}
+
+.blogsText p {
+	margin: 0;
+}
+
+#radar {
+	position: absolute;
+	width: 330px;
+	height: 260px;
+	top: 440px;
+	right: 470px;
+}
+
+#ra {
+	font-family: Arial;
+	font-size: 12px;
+	color: hsla(0,0%,100%,.25);
+}
+
+.plus{
+	right: 5px;
+	position: absolute;
+}
